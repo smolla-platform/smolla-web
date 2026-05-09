@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <RootNamespace>Smolla.Web.Host</RootNamespace>
+        <AssemblyName>Smolla.Web.Host</AssemblyName>
+        <UserSecretsId>smolla-web-host</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+        <PackageReference Include="Serilog.AspNetCore" />
+        <PackageReference Include="Serilog.Sinks.Console" />
+    </ItemGroup>
+
+</Project>
